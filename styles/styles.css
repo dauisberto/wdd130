@@ -3,21 +3,22 @@ main {
 }
 
 aside {
-    width: 150px;
+    width: 300px;
     margin: 2 px;
     border: 1px solid black;
     padding: 2px;
     background-color: rgb(198, 207, 243);
-    color: lightblue;
+    color: rgb(0, 0, 0);
+    text-align: center
 }
 
 aside img {
-    width: 1.5rem;
+    width: 200px;
     height: auto;
 }
 
 main img {
-    width: 2rem;
+    width: 200px;
     height: auto;
 }
 
