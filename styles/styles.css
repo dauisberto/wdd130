@@ -7,13 +7,22 @@ aside {
     margin: 2 px;
     border: 1px solid black;
     padding: 2px;
-    background-color: gray;
+    background-color: rgb(198, 207, 243);
     color: lightblue;
 }
 
 aside img {
-    width: 200px;
+    width: 1.5rem;
     height: auto;
+}
+
+main img {
+    width: 2rem;
+    height: auto;
+}
+
+p {
+    padding: 0;
 }
 
 nav {
@@ -41,4 +50,11 @@ img {
 
 p {
     padding: 10px;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1rem solid #000;
+    text-align: center;
+
 }
