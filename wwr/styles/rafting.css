@@ -53,6 +53,12 @@ article {
     position: relative;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
 .hero img {
     display: block;
     width: 100%;
