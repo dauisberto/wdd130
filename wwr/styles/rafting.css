@@ -12,6 +12,10 @@ header {
     color: var(--accent1-color);
 }
 
+header a {
+    color: var(--accent1-color);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +37,9 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: #fff;
+    background-color: var(--secondary-color);
+    text-align: center;
 }
 
 nav,
@@ -42,6 +48,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+    text-align: justify;
 }
 
 .socialmedia a {
@@ -61,8 +68,11 @@ article {
     position: absolute;
     bottom: 20px;
     left: 20px;
+    right: 20px;
     background-color: var(--secondary-color);
     color: #fff;
+    text-align: justify;
+    overflow: auto;
 }
 
 .hero img {
@@ -85,4 +95,5 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+    margin-left: 16px;
 }
