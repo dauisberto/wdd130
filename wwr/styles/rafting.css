@@ -49,6 +49,11 @@ article {
     text-decoration: none;
 }
 
+.socialmedia img {
+    width: 20px;
+    height: auto;
+}
+
 .hero {
     position: relative;
 }
@@ -57,6 +62,8 @@ article {
     position: absolute;
     bottom: 20px;
     left: 20px;
+    background-color: var(--secondary-color);
+    color: #fff;
 }
 
 .hero img {
