@@ -10,6 +10,25 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+header nav a {
+    padding: 10px 25px;
+    text-decoration: none;
+    background-color: #ddd;
+    color: #000;
+    border: 1px solid #999;
 }
 
 header a {
@@ -96,4 +115,46 @@ h1 {
     float: right;
     width: 125px;
     margin-left: 16px;
+}
+
+.history-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px
+}
+
+.history-content img {
+    width: 200px;
+    height: auto;
+}
+
+.history-content p {
+    flex: 1;
+}
+
+.rafting-pics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rafting-pics img {
+    width: 200px;
+    height: auto;
+}
+
+.rafting-pics figcaption {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+footer .socialmedia {
+    justify-content: flex-end;
 }
