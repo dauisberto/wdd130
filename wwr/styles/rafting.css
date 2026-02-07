@@ -63,7 +63,6 @@ h2 {
 
 nav,
 p,
-section,
 article {
     margin: 16px;
     padding: 8px;
@@ -135,17 +134,29 @@ h1 {
 
 .rafting-pics {
     display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.rafting-pics figure {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.rafting-gallery {
+    display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
-.rafting-pics img {
-    width: 200px;
+.rafting-gallery figure {
+    flex: 1;
+}
+
+.rafting-gallery img {
+    width: 120px;
     height: auto;
-}
-
-.rafting-pics figcaption {
-    text-align: center;
 }
 
 footer {
