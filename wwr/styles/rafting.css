@@ -167,3 +167,33 @@ footer {
 footer .socialmedia {
     justify-content: flex-end;
 }
+
+.contact-info {
+    text-align: center;
+}
+
+.map-form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 15px;
+    align-items: center;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.messagebox {
+    grid-column: 1 / -1;
+}
+
+.messagebox textarea {
+    width: 100%;
+}
