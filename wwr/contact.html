@@ -32,7 +32,7 @@
             <p>
                 BYU Cougars Rafting Tech<br>
                 P Sherman 42 Wallaby <br>
-                San Francisco, California </br>
+                San Francisco, California <br>
                 +5541992180061<br>
                 BYUCougars@rafting.com
 
@@ -62,24 +62,27 @@
                     <label>Message Purpose</label>
                     <div class="radio-group">
                         <label>
-                            <input type="radio" name="message-purpose" value="General Inquiry">
+                            <input type="radio" id="general" name="message-purpose"
+                              value="General Inquiry">
                             General Inquiry
                         </label>
 
                         <label>
-                            <input type="radio" name="message-purpose" value="Reservation Question">
+                            <input type="radio" id="general" name="message-purpose"
+                              value="Reservation Question">
                             Reservation Question
                         </label>
 
                         <label>
-                            <input type="radio" name="message-purpose" value="Website Suggestion">
+                            <input type="radio" id="general" name="message-purpose"
+                              value="Website Suggestion">
                             Website Suggestion
                         </label>
                     </div>
 
                     <div class="messagebox">
-                        <label>Message</label>
-                        <textarea id="Message" name="Message"></textarea>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message"></textarea>
                     </div>
 
                     <div class="checkbox">
@@ -88,7 +91,7 @@
                             newsletter</label>
                     </div>
 
-                    <button class="button" type="button">Get in touch!</button>
+                    <button class="button" type="submit">Get in touch!</button>
 
 
                 </form>

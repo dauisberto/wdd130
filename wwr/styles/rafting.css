@@ -191,16 +191,13 @@ footer .socialmedia {
     flex: 1;
 }
 
-.contact-form {
-    flex: 1;
-}
-
 .map iframe {
     width: 100%;
     min-height: 275px;
 }
 
 .contact-form {
+    flex: 1;
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 10px 15px;
