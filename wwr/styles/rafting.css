@@ -352,3 +352,70 @@ footer .socialmedia {
     font-weight: bold;
     border-radius: 5px;
 }
+
+.trips-description-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 30px 0;
+}
+
+.trip-card {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.trip-card img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.trip-info {
+    flex: 1;
+}
+
+.trips-table-section {
+    margin: 40px 0;
+}
+
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.trips-table th,
+.trips-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+.trips-table th {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.main-hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    z-index: 1;
+}
+
+.main-hero {
+    position: relative;
+    width: 100%;
+}
+
+.main-hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+}
