@@ -105,7 +105,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    color: #000;
+    color: #ddd;
 }
 
 .hero article img {
@@ -232,4 +232,123 @@ footer .socialmedia {
     padding: 10px;
     margin-bottom: 20px;
 
+}
+
+.index-header {
+    background-image: url(images/hero.png)
+}
+
+.news-icon img {
+    width: 25%;
+}
+
+.newsletter-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.news-icon img {
+    width: 120px;
+}
+
+.news-form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.rafting-images-section {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.rafting-images-section img {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.rafting-images-section figcaption {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main-hero {
+    position: relative;
+    width: 100%;
+}
+
+.main-hero img {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+.main-hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.rafting-trips {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.animation {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.rafting-trips::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: -1;
+}
+
+.trips-content {
+    position: relative;
+    z-index: 1;
+}
+
+.trips-content h2 {
+    color: white;
+    background-color: transparent;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.trips-action {
+    background-color: #2EC4B6;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
 }
